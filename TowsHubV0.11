@@ -1,0 +1,696 @@
+-- Hello
+-- oof this script is in beta 
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Menu = Instance.new("ImageLabel")
+local Roundify = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local localss = Instance.new("TextButton")
+local scripts = Instance.new("TextButton")
+local credits = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local Locals = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Speed = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local UIGradient_5 = Instance.new("UIGradient")
+local jump = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextBox_2 = Instance.new("TextBox")
+local set = Instance.new("ImageLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextButton = Instance.new("TextButton")
+local Set2 = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local btools = Instance.new("ImageLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local Noclip = Instance.new("ImageLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local clicktp = Instance.new("ImageLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local Scripts = Instance.new("ImageLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local Jailbreak = Instance.new("ImageLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local bloxburg = Instance.new("ImageLabel")
+local UIGradient_14 = Instance.new("UIGradient")
+local TextButton_7 = Instance.new("TextButton")
+local Credits = Instance.new("ImageLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local betanoti = Instance.new("ImageLabel")
+local UIGradient_16 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(0.351721525, 0, 0.42900303, 0)
+main.Size = UDim2.new(0.268495232, 24, 0.308157176, 24)
+main.Image = "rbxassetid://3570695787"
+main.ScaleType = Enum.ScaleType.Slice
+main.SliceCenter = Rect.new(100, 100, 100, 100)
+main.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 22, 22))}
+UIGradient.Parent = main
+
+Menu.Name = "Menu"
+Menu.Parent = main
+Menu.AnchorPoint = Vector2.new(0.5, 0.5)
+Menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu.BackgroundTransparency = 1.000
+Menu.Position = UDim2.new(0.498511434, 0, 0.154880285, 0)
+Menu.Size = UDim2.new(0.746011376, 24, 0.0932449177, 24)
+Menu.Image = "rbxassetid://3570695787"
+Menu.ScaleType = Enum.ScaleType.Slice
+Menu.SliceCenter = Rect.new(100, 100, 100, 100)
+Menu.SliceScale = 0.120
+
+Roundify.Name = "Roundify"
+Roundify.Parent = Menu
+Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify.BackgroundTransparency = 1.000
+Roundify.Position = UDim2.new(0.500000179, 0, 0.494423509, 0)
+Roundify.Size = UDim2.new(0.906111658, 24, 0.215745032, 24)
+Roundify.Image = "rbxassetid://3570695787"
+Roundify.ScaleType = Enum.ScaleType.Slice
+Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify.SliceScale = 0.120
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_2.Parent = Roundify
+
+localss.Name = "localss"
+localss.Parent = Roundify
+localss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+localss.BackgroundTransparency = 1.000
+localss.Position = UDim2.new(0.0403783433, 0, 0, 0)
+localss.Size = UDim2.new(0, 68, 0, 33)
+localss.Font = Enum.Font.Gotham
+localss.Text = "Locals"
+localss.TextColor3 = Color3.fromRGB(107, 107, 107)
+localss.TextSize = 16.000
+
+scripts.Name = "scripts"
+scripts.Parent = Roundify
+scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts.BackgroundTransparency = 1.000
+scripts.Position = UDim2.new(0.383743346, 0, 0, 0)
+scripts.Size = UDim2.new(0, 68, 0, 33)
+scripts.Font = Enum.Font.Gotham
+scripts.Text = "Scripts"
+scripts.TextColor3 = Color3.fromRGB(107, 107, 107)
+scripts.TextSize = 16.000
+
+credits.Name = "credits"
+credits.Parent = Roundify
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.Position = UDim2.new(0.738706172, 0, 0, 0)
+credits.Size = UDim2.new(0, 68, 0, 33)
+credits.Font = Enum.Font.Gotham
+credits.Text = "Info"
+credits.TextColor3 = Color3.fromRGB(107, 107, 107)
+credits.TextSize = 16.000
+
+UIGradient_3.Parent = Menu
+
+Locals.Name = "Locals"
+Locals.Parent = main
+Locals.AnchorPoint = Vector2.new(0.5, 0.5)
+Locals.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Locals.BackgroundTransparency = 1.000
+Locals.Position = UDim2.new(0.499986947, 0, 0.657199085, 0)
+Locals.Size = UDim2.new(0.940026164, 24, 0.580338657, 24)
+Locals.Visible = false
+Locals.Image = "rbxassetid://3570695787"
+Locals.ScaleType = Enum.ScaleType.Slice
+Locals.SliceCenter = Rect.new(100, 100, 100, 100)
+Locals.SliceScale = 0.120
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 22, 22))}
+UIGradient_4.Parent = Locals
+
+Speed.Name = "Speed"
+Speed.Parent = Locals
+Speed.AnchorPoint = Vector2.new(0.5, 0.5)
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.Position = UDim2.new(0.34477365, 0, 0.137643963, 0)
+Speed.Size = UDim2.new(0.440104842, 24, 0.0271485951, 24)
+Speed.Image = "rbxassetid://3570695787"
+Speed.ScaleType = Enum.ScaleType.Slice
+Speed.SliceCenter = Rect.new(100, 100, 100, 100)
+Speed.SliceScale = 0.120
+
+TextBox.Parent = Speed
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Size = UDim2.new(0, 200, 0, 30)
+TextBox.Font = Enum.Font.Gotham
+TextBox.PlaceholderColor3 = Color3.fromRGB(116, 116, 116)
+TextBox.PlaceholderText = "Walkspeed"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextBox.TextSize = 14.000
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_5.Parent = Speed
+
+jump.Name = "jump"
+jump.Parent = Locals
+jump.AnchorPoint = Vector2.new(0.5, 0.5)
+jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jump.BackgroundTransparency = 1.000
+jump.Position = UDim2.new(0.34477365, 0, 0.405018687, 0)
+jump.Size = UDim2.new(0.440104842, 24, 0.0271485951, 24)
+jump.Image = "rbxassetid://3570695787"
+jump.ScaleType = Enum.ScaleType.Slice
+jump.SliceCenter = Rect.new(100, 100, 100, 100)
+jump.SliceScale = 0.120
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_6.Parent = jump
+
+TextBox_2.Parent = jump
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.BackgroundTransparency = 1.000
+TextBox_2.Size = UDim2.new(0, 200, 0, 30)
+TextBox_2.Font = Enum.Font.Gotham
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(116, 116, 116)
+TextBox_2.PlaceholderText = "JumpPower"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextBox_2.TextSize = 14.000
+
+set.Name = "set"
+set.Parent = Locals
+set.AnchorPoint = Vector2.new(0.5, 0.5)
+set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+set.BackgroundTransparency = 1.000
+set.Position = UDim2.new(0.821213901, 0, 0.137643963, 0)
+set.Size = UDim2.new(0.115104869, 24, 0.0271485951, 24)
+set.Image = "rbxassetid://3570695787"
+set.ScaleType = Enum.ScaleType.Slice
+set.SliceCenter = Rect.new(100, 100, 100, 100)
+set.SliceScale = 0.120
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_7.Parent = set
+
+TextButton.Parent = set
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(-4.61935997e-07, 0, -0.0354060978, 0)
+TextButton.Size = UDim2.new(0, 70, 0, 30)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Set"
+TextButton.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton.TextSize = 14.000
+
+Set2.Name = "Set2"
+Set2.Parent = Locals
+Set2.AnchorPoint = Vector2.new(0.5, 0.5)
+Set2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Set2.BackgroundTransparency = 1.000
+Set2.Position = UDim2.new(0.818713903, 0, 0.405018687, 0)
+Set2.Size = UDim2.new(0.115104869, 24, 0.0271485951, 24)
+Set2.Image = "rbxassetid://3570695787"
+Set2.ScaleType = Enum.ScaleType.Slice
+Set2.SliceCenter = Rect.new(100, 100, 100, 100)
+Set2.SliceScale = 0.120
+
+TextButton_2.Parent = Set2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(-0.000206798315, 0, -5.96046448e-08, 0)
+TextButton_2.Size = UDim2.new(0, 70, 0, 30)
+TextButton_2.Font = Enum.Font.Gotham
+TextButton_2.Text = "Set"
+TextButton_2.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_2.TextSize = 14.000
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_8.Parent = Set2
+
+btools.Name = "btools"
+btools.Parent = Locals
+btools.AnchorPoint = Vector2.new(0.5, 0.5)
+btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btools.BackgroundTransparency = 1.000
+btools.Position = UDim2.new(0.22220774, 0, 0.643026412, 0)
+btools.Size = UDim2.new(0.194972977, 24, 0.0271485951, 24)
+btools.Image = "rbxassetid://3570695787"
+btools.ScaleType = Enum.ScaleType.Slice
+btools.SliceCenter = Rect.new(100, 100, 100, 100)
+btools.SliceScale = 0.120
+
+TextButton_3.Parent = btools
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.038365595, 0, -0.0708117783, 0)
+TextButton_3.Size = UDim2.new(0, 95, 0, 30)
+TextButton_3.Font = Enum.Font.Gotham
+TextButton_3.Text = "Btools"
+TextButton_3.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_3.TextSize = 14.000
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_9.Parent = btools
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Locals
+Noclip.AnchorPoint = Vector2.new(0.5, 0.5)
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.BackgroundTransparency = 1.000
+Noclip.Position = UDim2.new(0.497647524, 0, 0.643026412, 0)
+Noclip.Size = UDim2.new(0.194972977, 24, 0.0271485951, 24)
+Noclip.Image = "rbxassetid://3570695787"
+Noclip.ScaleType = Enum.ScaleType.Slice
+Noclip.SliceCenter = Rect.new(100, 100, 100, 100)
+Noclip.SliceScale = 0.120
+
+TextButton_4.Parent = Noclip
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.0179991424, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 95, 0, 28)
+TextButton_4.Font = Enum.Font.Gotham
+TextButton_4.Text = "Noclip"
+TextButton_4.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_4.TextSize = 14.000
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_10.Parent = Noclip
+
+clicktp.Name = "clicktp"
+clicktp.Parent = Locals
+clicktp.AnchorPoint = Vector2.new(0.5, 0.5)
+clicktp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clicktp.BackgroundTransparency = 1.000
+clicktp.Position = UDim2.new(0.781296372, 0, 0.643026412, 0)
+clicktp.Size = UDim2.new(0.194972977, 24, 0.0271485951, 24)
+clicktp.Image = "rbxassetid://3570695787"
+clicktp.ScaleType = Enum.ScaleType.Slice
+clicktp.SliceCenter = Rect.new(100, 100, 100, 100)
+clicktp.SliceScale = 0.120
+
+TextButton_5.Parent = clicktp
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.0220742524, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 95, 0, 28)
+TextButton_5.Font = Enum.Font.Gotham
+TextButton_5.Text = "Click Tp"
+TextButton_5.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_5.TextSize = 14.000
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_11.Parent = clicktp
+
+Scripts.Name = "Scripts"
+Scripts.Parent = main
+Scripts.AnchorPoint = Vector2.new(0.5, 0.5)
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.Position = UDim2.new(0.499986947, 0, 0.657199085, 0)
+Scripts.Size = UDim2.new(0.940026164, 24, 0.580338657, 24)
+Scripts.Visible = false
+Scripts.Image = "rbxassetid://3570695787"
+Scripts.ScaleType = Enum.ScaleType.Slice
+Scripts.SliceCenter = Rect.new(100, 100, 100, 100)
+Scripts.SliceScale = 0.120
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 22, 22))}
+UIGradient_12.Parent = Scripts
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Scripts
+Jailbreak.AnchorPoint = Vector2.new(0.5, 0.5)
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.BackgroundTransparency = 1.000
+Jailbreak.Position = UDim2.new(0.154422224, 0, 0.270165771, 0)
+Jailbreak.Size = UDim2.new(0.132521212, 24, 0.266873568, 24)
+Jailbreak.Image = "rbxassetid://3570695787"
+Jailbreak.ScaleType = Enum.ScaleType.Slice
+Jailbreak.SliceCenter = Rect.new(100, 100, 100, 100)
+Jailbreak.SliceScale = 0.120
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 13, 13)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(13, 13, 13))}
+UIGradient_13.Parent = Jailbreak
+
+TextButton_6.Parent = Jailbreak
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.Position = UDim2.new(0.0131826885, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 73, 0, 65)
+TextButton_6.Font = Enum.Font.Gotham
+TextButton_6.Text = "Jailbreak"
+TextButton_6.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_6.TextSize = 14.000
+
+bloxburg.Name = "bloxburg"
+bloxburg.Parent = Scripts
+bloxburg.AnchorPoint = Vector2.new(0.5, 0.5)
+bloxburg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bloxburg.BackgroundTransparency = 1.000
+bloxburg.Position = UDim2.new(0.154422224, 0, 0.74995929, 0)
+bloxburg.Size = UDim2.new(0.132521212, 24, 0.266873568, 24)
+bloxburg.Image = "rbxassetid://3570695787"
+bloxburg.ScaleType = Enum.ScaleType.Slice
+bloxburg.SliceCenter = Rect.new(100, 100, 100, 100)
+bloxburg.SliceScale = 0.120
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 13, 13)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(13, 13, 13))}
+UIGradient_14.Parent = bloxburg
+
+TextButton_7.Parent = bloxburg
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0.00685121492, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0, 73, 0, 65)
+TextButton_7.Font = Enum.Font.Gotham
+TextButton_7.Text = "BloxBurg"
+TextButton_7.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_7.TextSize = 14.000
+
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.AnchorPoint = Vector2.new(0.5, 0.5)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.499986947, 0, 0.657199085, 0)
+Credits.Size = UDim2.new(0.940026164, 24, 0.580338657, 24)
+Credits.Image = "rbxassetid://3570695787"
+Credits.ScaleType = Enum.ScaleType.Slice
+Credits.SliceCenter = Rect.new(100, 100, 100, 100)
+Credits.SliceScale = 0.120
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 22, 22))}
+UIGradient_15.Parent = Credits
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.239980698, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Welcome"
+TextLabel.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel.TextSize = 25.000
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.23933436, 0, 0.243095368, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 29)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "text"
+TextLabel_2.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel_2.TextSize = 20.000
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.239980698, 0, 0.498985261, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "TowsHub"
+TextLabel_3.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel_3.TextSize = 25.000
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.247646883, 0, 0.678108156, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Scripts In The ScriptHub Were Not Made By Me"
+TextLabel_4.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel_4.TextSize = 15.000
+
+betanoti.Name = "betanoti"
+betanoti.Parent = ScreenGui
+betanoti.AnchorPoint = Vector2.new(0.5, 0.5)
+betanoti.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+betanoti.BackgroundTransparency = 1.000
+betanoti.Position = UDim2.new(-0.144999996, 0, 0.893999994, 0)
+betanoti.Size = UDim2.new(0.208465949, 24, 0.175226614, 24)
+betanoti.Image = "rbxassetid://3570695787"
+betanoti.ScaleType = Enum.ScaleType.Slice
+betanoti.SliceCenter = Rect.new(100, 100, 100, 100)
+betanoti.SliceScale = 0.120
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 22, 22))}
+UIGradient_16.Parent = betanoti
+
+TextLabel_5.Parent = betanoti
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0.172792897, 0, 0.271428555, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 63)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "TowsHub Is In Beta And Is Not Complete!"
+TextLabel_5.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel_5.TextSize = 15.000
+
+TextLabel_6.Parent = betanoti
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0.172792897, 0, 0.592857063, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 63)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Version 0.1"
+TextLabel_6.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel_6.TextSize = 15.000
+
+TextButton_8.Parent = betanoti
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.Position = UDim2.new(0.936729789, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, 19, 0, 28)
+TextButton_8.Font = Enum.Font.Gotham
+TextButton_8.Text = "X"
+TextButton_8.TextColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_8.TextSize = 14.000
+
+-- Scripts:
+
+local function RVDPAU_fake_script() -- localss.LocalScript 
+	local script = Instance.new('LocalScript', localss)
+
+	local localsss = script.Parent.Parent.Parent.Parent.Locals
+	local scriptss = script.Parent.Parent.Parent.Parent.Scripts
+	local credits = script.Parent.Parent.Parent.Parent.Credits
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptss.Visible = false
+		credits.Visible = false
+		localsss.Visible = true
+	end)
+end
+coroutine.wrap(RVDPAU_fake_script)()
+local function OTCOP_fake_script() -- scripts.LocalScript 
+	local script = Instance.new('LocalScript', scripts)
+
+	local localsss = script.Parent.Parent.Parent.Parent.Locals
+	local scriptss = script.Parent.Parent.Parent.Parent.Scripts
+	local credits = script.Parent.Parent.Parent.Parent.Credits
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		localsss.Visible = false
+		credits.Visible = false
+		scriptss.Visible = true
+	end)
+end
+coroutine.wrap(OTCOP_fake_script)()
+local function KQEZ_fake_script() -- credits.LocalScript 
+	local script = Instance.new('LocalScript', credits)
+
+	local localsss = script.Parent.Parent.Parent.Parent.Locals
+	local scriptss = script.Parent.Parent.Parent.Parent.Scripts
+	local creditss = script.Parent.Parent.Parent.Parent.Credits
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		localsss.Visible = false
+		scriptss.Visible = false
+		creditss.Visible = true
+	end)
+end
+coroutine.wrap(KQEZ_fake_script)()
+local function AYOHZDZ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.Parent.Speed.TextBox.Text
+	end)
+end
+coroutine.wrap(AYOHZDZ_fake_script)()
+local function VPJD_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Parent.Parent.jump.TextBox.Text
+	end)
+end
+coroutine.wrap(VPJD_fake_script)()
+local function VTWO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		tool1.BinType = "Clone"
+		tool2.BinType = "GameTool"
+		tool3.BinType = "Hammer"
+		tool4.BinType = "Script"
+		tool5.BinType = "Grab"
+	end)
+end
+coroutine.wrap(VTWO_fake_script)()
+local function IWYTB_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+		local runservice = game:GetService("RunService")
+		local noclip = false
+		
+		local msg = Instance.new("Message", player.PlayerGui)
+		msg.Text = "Noclip Press Q to enable noclip press E to disable it"
+		wait(2)
+		msg:Destroy()
+		
+		runservice.Stepped:Connect(function()
+			if noclip then
+				player.Character.Humanoid:ChangeState(11)
+			end
+		end)
+		
+		
+		mouse.KeyDown:Connect(function(key)
+			if key == "q" then
+				noclip = true
+				player.Character.Humanoid:ChangeState(11)
+			end
+		end)
+		
+		mouse.KeyDown:Connect(function(key)
+			if key == "e" then
+				noclip = false
+				player.Character.Humanoid:ChangeState(11)
+			end
+		end)
+	end)
+end
+coroutine.wrap(IWYTB_fake_script)()
+local function SLHC_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game:GetService("Players").LocalPlayer
+		local char = player.Character
+		local mouse = player:GetMouse()
+		local uis = game:GetService("UserInputService")
+		
+		local shifthold  = false
+		
+		local msg = Instance.new("Message", player.PlayerGui)
+		msg.Text = "Click TP Hold shift to use it"
+		wait(2)
+		msg:Destroy()	
+		
+		mouse.Button1Down:Connect(function()
+			if shifthold then
+				char:MoveTo(mouse.Hit.p)
+			end
+		end)
+		
+		uis.InputBegan:Connect(function(input, process)
+			if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+				shifthold = true
+			end
+		end)
+		
+		uis.InputEnded:Connect(function(input, process)
+			if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+				shifthold = false
+			end
+		end)
+	end)
+end
+coroutine.wrap(SLHC_fake_script)()
+local function OTMUZ_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(OTMUZ_fake_script)()
+local function EGWEQSS_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal", true))()
+	end)
+end
+coroutine.wrap(EGWEQSS_fake_script)()
+local function WSKGRV_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/XB67JnAu'))()
+	end)
+end
+coroutine.wrap(WSKGRV_fake_script)()
+local function CWCJOZB_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(CWCJOZB_fake_script)()
+local function QZQYB_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(-0.145, 0,0.894, 0))
+	end)
+end
+coroutine.wrap(QZQYB_fake_script)()
+local function AREPHRY_fake_script() -- betanoti.LocalScript 
+	local script = Instance.new('LocalScript', betanoti)
+
+	
+	wait(1.5)
+	script.Parent:TweenPosition(UDim2.new(0.118, 0,0.894, 0))
+end
+coroutine.wrap(AREPHRY_fake_script)()
